@@ -1,0 +1,27 @@
+{
+  "max_epoch": 400,
+  "plain": 24,
+  "key": 24,
+  "cipher": 24,
+  "batch_size": 4096,
+  "device": "",
+  "lr": 0.00001,
+  "steps": [
+    250,
+    2
+  ],
+  "alice": {
+    "depth": 4,
+    "hidden": 196
+  },
+  "bob": {
+    "depth": 4,
+    "hidden": 196
+  },
+  "eve": {
+    "depth": 4,
+    "hidden": 196
+  },
+  "loss_path": "./loss_data",
+  "model_path": "./model_dict"
+}
